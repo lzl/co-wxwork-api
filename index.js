@@ -45,6 +45,8 @@ mixin(CorpAPI, require('./lib/corp_batch'))
 /* 微信企业套件 */
 // 第三方应用
 mixin(SuiteAPI, require('./lib/suite_3rd'))
+// 第三方应用登录
+mixin(SuiteAPI, require('./lib/suite_3rd_oauth'))
 
 /* 微信企业服务商 */
 // 商户授权
